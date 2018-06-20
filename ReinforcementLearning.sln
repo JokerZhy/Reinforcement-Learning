@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ReinforcementLearning", "ReinforcementLearning\ReinforcementLearning.pyproj", "{B13E650A-2418-4A38-A622-6B763A58725D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13E650A-2418-4A38-A622-6B763A58725D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13E650A-2418-4A38-A622-6B763A58725D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB8EC222-A29E-4710-900A-FD29B5ACDCBC}
+	EndGlobalSection
+EndGlobal

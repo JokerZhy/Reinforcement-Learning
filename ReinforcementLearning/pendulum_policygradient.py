@@ -68,9 +68,9 @@ with tf.Session() as sess:
     for ix, grads in enumerate(gradBuffer):
         gradBuffer[ix] = grads * 0#将初始的梯度置零
     while episode_count <= EPISODES:
-        #if reward_sum / BATCH_SIZE > 100 or render_flag == True:
-        #    env.render()
-        #    render_flag = True
+        if reward_sum / BATCH_SIZE > 100 or render_flag == True:
+            env.render()
+            render_flag = True
         state = np.reshape(observation,[1,D_state])
         tfprob = sess.run(output,feed_dict={input:state})
         action = 1 if np.random.uniform() < tfprob else 0
